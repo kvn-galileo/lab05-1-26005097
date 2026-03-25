@@ -14,6 +14,10 @@ import random
 try:
     n = int(input("Ingrese N: "))
 
+    if (n <=5):
+        print("Numero invalido, tu numero tiene que ser mayor a 5")
+        exit()
+
     lista_valores_random = []
     lista_de_cuadrados = []
 
